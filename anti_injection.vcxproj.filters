@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b192af53-2c94-44ee-bc59-448e491b9371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entry-point">
+      <UniqueIdentifier>{9446ec55-ad99-4048-b463-b8f621b82a39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\entry-point\entry-point.hpp">
+      <Filter>src\entry-point</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\entry-point\entry-point.cpp">
+      <Filter>src\entry-point</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
